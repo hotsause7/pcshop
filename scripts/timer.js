@@ -18,7 +18,7 @@ const numWord = (value) => {
 
 const setTime = () => {
   const date = new Date();
-  const deadLineTime = new Date("12 november 2025 10:00").getTime();
+  const deadLineTime = new Date("13 november 2025 10:00").getTime();
   const timeRemaining = (deadLineTime - date) / 1000;
 
   const currentDay = Math.floor(timeRemaining / 60 / 60 / 24);
